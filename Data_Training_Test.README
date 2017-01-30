@@ -1,0 +1,158 @@
+Please read this file in NotePad++ 
+
+Baseline results:
+Positive Examples : 0.522968198
+Negative Examples : 0.477031802
+
+Columns 0 to 148
+	Weekday ?		(Parameter to define if the day is weekday or not)	
+Features : 
+	Cancelled(0-10)
+	Cancelled(10-20)
+	Cancelled(20-30)
+	Cancelled(30-40)
+	Cancelled(40-50)
+	Cancelled(50-70)
+	Cancelled(70-90)
+	Cancelled(90-120)
+	Cancelled(120-150)
+	Cancelled(150-200)
+	Cancelled(200-300)
+	Cancelled(300-500)
+	Cancelled(500-1000)
+	Cancelled(1000-2500)
+	Cancelled(2500-MAX)
+	CancelCodesA(0%-25%)
+	CancelCodesA(25%-50%)
+	CancelCodesA(50%-66.66%)
+	CancelCodesA(66.66%-83.333%)
+	CancelCodesA(83.33%-100%)
+	CancelCodesB(0%-13.3333%)
+	CancelCodesB(13.3333%-33.333%)
+	CancelCodesB(33.33%-50%)
+	CancelCodesB(50%-75%)
+	CancelCodesB(75%-100%)
+	CancelCodesB(0%-13.3333%)
+	CancelCodesB(13.3333%-33.333%)
+	CancelCodesB(33.33%-50%)
+	CancelCodesB(50%-75%)
+	CancelCodesB(75%-100%)
+	DepDelayed15(0%-5%)
+	DepDelayed15(5%-10%)
+	DepDelayed15(10%-15%)
+	DepDelayed15(15%-20%)
+	DepDelayed15(20%-25%)
+	DepDelayed15(25%-30%)
+	DepDelayed15(30%-35%)
+	DepDelayed15(35%-40%)
+	DepDelayed15(40%-50%)
+	DepDelayed15(50%-75%)
+	DepDelayed15(75%-100%)
+	DepDelayed45(0%-2.5%)
+	DepDelayed45(2.5%-5%)
+	DepDelayed45(5%-7.5%)
+	DepDelayed45(7.5%-10%)
+	DepDelayed45(10%-13.33%)
+	DepDelayed45(13.333%-16.333%)
+	DepDelayed45(16.333%-20%)
+	DepDelayed45(20%-25%)
+	DepDelayed45(25%-30%)
+	DepDelayed45(>30%)
+	DepDelayed90(0%-1.333%)
+	DepDelayed90(1.33%-3.33%)
+	DepDelayed90(3.33%-5%)
+	DepDelayed90(5%-7.5%)
+	DepDelayed90(7.5%-10%)
+	DepDelayed90(10%-13.33%)
+	DepDelayed90(13.333%-16.333%)
+	DepDelayed90(16.333%-20%)
+	DepDelayed90(20%-25%)
+	DepDelayed90(>25%)
+	ArrDelayed15(0%-5%)
+	ArrDelayed15(5%-10%)
+	ArrDelayed15(10%-15%)
+	ArrDelayed15(15%-20%)
+	ArrDelayed15(20%-25%)
+	ArrDelayed15(25%-30%)
+	ArrDelayed15(30%-35%)
+	ArrDelayed15(35%-40%)
+	ArrDelayed15(40%-50%)
+	ArrDelayed15(50%-75%)
+	ArrDelayed15(75%-100%)
+	ArrDelayed45(0%-2.5%)
+	ArrDelayed45(2.5%-5%)
+	ArrDelayed45(5%-7.5%)
+	ArrDelayed45(7.5%-10%)
+	ArrDelayed45(10%-13.33%)
+	ArrDelayed45(13.333%-16.333%)
+	ArrDelayed45(16.333%-20%)
+	ArrDelayed45(20%-25%)
+	ArrDelayed45(25%-30%)
+	ArrDelayed45(>30%)
+	ArrDelayed90(0%-1.333%)
+	ArrDelayed90(1.33%-3.33%)
+	ArrDelayed90(3.33%-5%)
+	ArrDelayed90(5%-7.5%)
+	ArrDelayed90(7.5%-10%)
+	ArrDelayed90(10%-13.33%)
+	ArrDelayed90(13.333%-16.333%)
+	ArrDelayed90(16.333%-20%)
+	ArrDelayed90(20%-25%)
+	ArrDelayed90(>25%)
+	Cancelled(0-10)
+	Cancelled(0-10)
+	Cancelled(10-20)
+	Cancelled(20-30)
+	Cancelled(30-40)
+	Cancelled(40-50)
+	Cancelled(50-70)
+	Cancelled(70-90)
+	Cancelled(90-120)
+	Cancelled(120-500)
+	Cancelled(>500)
+	Carrier Delay(0-1000)mins
+	Carrier Delay(1000-4000)mins
+	Carrier Delay(4000-8000)mins
+	Carrier Delay(4000-12000)mins
+	Carrier Delay(12000-16000)mins
+	Carrier Delay(16000-20000)mins
+	Carrier Delay(20000-25000)mins
+	Carrier Delay(25000-30000)mins
+	Carrier Delay(30000-35000)mins
+	Carrier Delay(35000-45000)mins
+	Carrier Delay(45000-MAX)mins
+	Weather Delay(0-150)mins
+	Weather Delay(150-500)mins
+	Weather Delay(500-1000)mins
+	Weather Delay(1000-2500)mins
+	Weather Delay(2500-5000)mins
+	Weather Delay(5000-7500)mins
+	Weather Delay(7500-10000)mins
+	Weather Delay(10000-15000)mins
+	Weather Delay(15000-20000)mins
+	Weather Delay(20000-MAX)mins
+	NAS Delay(0-1000)mins
+	NAS Delay(1000-4000)mins
+	NAS Delay(4000-8000)mins
+	NAS Delay(4000-12000)mins
+	NAS Delay(12000-16000)mins
+	NAS Delay(16000-20000)mins
+	NAS Delay(20000-25000)mins
+	NAS Delay(25000-30000)mins
+	NAS Delay(30000-35000)mins
+	NAS Delay(35000-45000)mins
+	NAS Delay(45000-MAX)mins
+	LateAircraft Delay(0-1000)mins
+	LateAircraft Delay(1000-4000)mins
+	LateAircraft Delay(4000-8000)mins
+	LateAircraft Delay(4000-12000)mins
+	LateAircraft Delay(12000-16000)mins
+	LateAircraft Delay(16000-20000)mins
+	LateAircraft Delay(20000-25000)mins
+	LateAircraft Delay(25000-30000)mins
+	LateAircraft Delay(30000-35000)mins
+	LateAircraft Delay(35000-45000)mins
+	LateAircraft Delay(45000-55000)mins
+	LateAircraft Delay(55000-MAX)mins
+Final Label : 
+	FinalLabel 
